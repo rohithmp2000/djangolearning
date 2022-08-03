@@ -1,0 +1,18 @@
+{% extends 'HTML4.html' %}
+<HTML>
+    <HEAD>
+        {% block title %}   
+        <TITLE>Fifth Page - HTML5</TITLE>
+        {% endblock %}
+    </HEAD>
+    <BODY>
+    This page is used to show block content page2. 
+    {% block content %}   
+    <P>What all content to be changed is given in BLOCK concept.<BR>
+       Here, this line is given in block concept.<BR>
+       In block concept, even the title also get inherited to the mentioned page.<BR>
+       To avoid this, title is also given in block concept in this page.
+    </P>
+    {% endblock %}
+    </BODY>
+</HTML>

@@ -1,0 +1,22 @@
+<HTML>
+    <HEAD>
+        <TITLE>Third Page - HTML3</TITLE>
+    </HEAD>
+    <BODY>
+<!-- Variable  mentioned -->
+        {{data}} <BR>
+        This page shows the content from the HTML page HTML3.<BR><BR>
+
+<!-- For Loop -->
+        <H3><B><U>FOR Loop</U></B></H3>
+        {% for i in new %}
+        {{i}} <BR>
+        {% endfor %}
+
+<!-- If Statement -->
+        <H3><B><U>IF Statement</U></B></H3>
+        {% if data %}
+        {{data}} This is a sentence printed by If Loop..
+        {% endif %}
+    </BODY>
+</HTML>
